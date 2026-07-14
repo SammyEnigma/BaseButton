@@ -13,10 +13,12 @@ TEMPLATE = app
 
 
 SOURCES += main.cpp\
-        widget.cpp \
-    basetoolbutton.cpp
+        buttons/basepushbutton.cpp \
+        buttons/basetoolbutton.cpp \
+        widget.cpp
 
 HEADERS  += widget.h \
-    basetoolbutton.h
+    buttons/basepushbutton.h \
+    buttons/basetoolbutton.h
 
 FORMS    += widget.ui

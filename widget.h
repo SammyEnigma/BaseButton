@@ -8,7 +8,6 @@
 
 #include <QWidget>
 #include <QButtonGroup>
-#include "basetoolbutton.h"
 
 namespace Ui {
 class Widget;
@@ -23,15 +22,8 @@ public:
     ~Widget();
 
 private:
-    void initBaseToolButtonUi();//初始化BaseToolButton功能测试界面
-
     Ui::Widget *ui;
-    QButtonGroup *btnGroup;
 
-public slots:
-    void singleButtonsSlot(int btnIndex);
-    void btnClickedSlot();
-    void btnLongPressSlot(uint longPressMs);
 
 };
 
